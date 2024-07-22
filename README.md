@@ -42,11 +42,10 @@ Initialize the DynamoDB client to interact with the DynamoDB table and the Lambd
 7.The Lambda function is designed to handle post submissions: 
 
 # AWS Lambda Function (PostProcessorFunction)
-## The Lambda function is designed to handle post submissions:
-
-## Initialize DynamoDB Resource: Set up DynamoDB to interact with the 'Trend' table.
-## Extract Post Data:Parse the incoming event data to extract the post details.
-## Prepare and Store Item:Create an item with the post details and store it in DynamoDB.
+The Lambda function is designed to handle post submissions:
+Initialize DynamoDB Resource: Set up DynamoDB to interact with the 'Trend' table.
+Extract Post Data:Parse the incoming event data to extract the post details.
+Prepare and Store Item:Create an item with the post details and store it in DynamoDB.
 ## Return Response:
-## Return a success response if the post is processed correctly.
-## Return an error response if there is an issue processing the post.
+Return a success response if the post is processed correctly.
+Return an error response if there is an issue processing the post.
